@@ -1,0 +1,14 @@
+<table>
+  <thead>
+    <th>order ID</th>
+    <th>Name</th>
+    <th></th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let order of orderlist">
+      <td>{{ order[0] }}</td>
+      <td>{{ order[1] }}</td>
+      <td><button type="button">Update</button></td>
+    </tr>
+  </tbody>
+</table>
